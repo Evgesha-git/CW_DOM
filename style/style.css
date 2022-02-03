@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 700px;
+    align-items: center;
+}
+
+.form > input{
+    font-size: 28px;
+}
+
+.form > button {
+    width: 200px;
+    font-size: 26px;
+}
+
+.vagon_form{
+    position: absolute;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    /*max-width: 700px;*/
+    width: 100%;
+    align-items: center;
+    top: 0;
+    /*left: 50%;*/
+    right: auto;
+}
+
+.vagon_form > input{
+    font-size: 28px;
+}
+
+.vagon_form > button{
+    width: 200px;
+    font-size: 26px;
+}
+
+.none{
+    display: none;
+}
+
+.trains{
+    max-width: 800px;
+    width: 100%;
+}
+
+wrapper{
+    display: flex;
+}
+
+wrapper > div{
+    width: 200px;
+    font-size: 28px;
+}
+
+.train_info{
+    display: flex;
+}
+
+.remove{
+    font-size: 26px;
+    background: #fff;
+    color: red;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.err{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: red;
+    font-size: 36px;
+    text-align: center;
+
+}
